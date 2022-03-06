@@ -5,45 +5,133 @@
     justify-content: space-evenly;
     border-radius: 100px;
     border-color: rgb(1, 5, 255); 
-    border-width: 5px;
+    border-width: 10px;
     padding-right: 100px;
     padding-block: 5px;
+
+    color:  red;
+    font-size:25px;
+
+
+    
  }
 
 
- body{
-
-    margin: 10px;
-    padding: 10px;
- }
-
-
- a{
+ h1{
     padding-top: 25px;
-    align-items:center;
+    align-items:baseline;
+    padding-bottom: 30px;
     padding-inline: 20px;
-    border: rgb(43, 255, 0) solid;
-    border-width: 5px;
+    border: rgb(248, 244, 8) solid;
+    border-width: 10px;
+    border-radius: 10px;
+
  }
+
+
+ h2{
+    padding-top: 25px;
+    align-items:baseline;
+    padding-bottom: 30px;
+    padding-inline: 20px;
+    border: rgb(81, 255, 0) solid;
+    border-width: 30px;
+    border-block:inherit ;
+ }
+
 
  
 .grid{
-    
-
-    border: solid;
-
+    border: 10px solid rgb(0, 26, 255);
     display: flex;
+    align-items:center;
+    flex-direction: row;
     flex-wrap:wrap;
+    justify-content: space-around;
+
+    padding: 20px;
 
 }
 
 
 
-p,h2{
-    background-color: rgb(34, 238, 78);
+
+
+p{
+    text-align:center;
+
+    background-color: rgb(54, 231, 92);
     font-size: 15px;
     color:  blue;
-    border-color: rgb(247, 5, 5); 
-    border-radius: 50px;
+    border-radius: 10px;
     border: solid;
+}
+
+p1{
+    background-color: rgb(54, 231, 92);
+    font-size: 15px;
+    color:  blue;
+    border-radius: 10px;
+    border: solid;
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+
+.footer{
+        border: 5px solid;
+        display: flex;
+        align-items:center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-content:flex-start;
+        justify-content: space-around;
+
+
+    
+}
+
+
+.item1{
+    display: flex;
+    align-items:left;
+    flex-wrap:wrap;
+    align-content:center;
+    border: 10px solid red;
+    flex-direction: column;
+  
+}
+.item2{
+    display: flex;
+    align-items:left;
+    flex-wrap:wrap;
+    align-content:center;
+    border: 10px solid red;
+    border-radius: 10px;
+    flex-direction: column;
+  
+}
+
+.item3{
+    display: flex;
+    align-items:left;
+    flex-wrap:wrap;
+    align-content:center;
+    border: 10px solid red;
+    flex-direction: column;
+  
+}
+.item4{
+    display: flex;
+    align-items:left;
+    flex-wrap:wrap;
+    align-content:center;
+    border: 10px solid red;
+    flex-direction: column;
+
+
+
 }
